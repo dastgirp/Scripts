@@ -1,4 +1,4 @@
-repo
+Modifications
 ====
 
-My Repository containing all my modifications and requests.
+My Repository containing all my modifications and Requests.

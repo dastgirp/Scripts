@@ -1,1 +1,1 @@
-lua SeperateItemInfo.lua
+lua eXtract.lua

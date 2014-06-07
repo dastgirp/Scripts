@@ -4,4 +4,4 @@ Make idnum tables from itemInfo:<br/>
 4)The files will be stored in "idnum" folder.<br/>
 Note: This can even convert the compiled .lub file to idnum table<br/>
 <br/>
-Credits: Dastgir Pojee<br/>
+Credits: Dastgir<br/>

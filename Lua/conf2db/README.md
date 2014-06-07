@@ -8,4 +8,4 @@ Format:<br/>
 	Default: #ID,#AegisName,#Name,#Type,#Buy,#Sell,#Weight,#Atk:#Matk,#Def,#Range,#Slots,#Job,#Upper,#Gender,#Loc,#wLV,#eLV,#Refine,#View,{ #Script },{ #OnEquipScript },{ #OnUnequipScript }<br/>
 	Additional Parameter: #eqmax,#eqmin (maximum and minimum equip level) <br/>
 <br/>
-Credits: Dastgir Pojee<br/>
+Credits: Dastgir<br/>

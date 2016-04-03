@@ -12,7 +12,7 @@ typ = {
 }
 
 -- ItemDB
-tbl = {
+item_tbl = {
 	item_tbl_name = "item_db",	-- See at start of item_db, the initial line determine's this.
 	-- ItemDB Fields
 	fields = {	--Names are Formats too

@@ -8,6 +8,7 @@ Lua to Lub Conversion:<br/>
 	luac5.0.2.exe -o FileName.lub FileName.lua<br/>
 <br/>
 luac52.exe (Currently No Use for Ragnarok)<br/>
+luac53.exe (Currently No Use for Ragnarok)<br/>
 <br/>
 It will compile FileName.lua to FileName.lub<br/>
 

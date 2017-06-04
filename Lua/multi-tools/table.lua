@@ -41,6 +41,8 @@ item_tbl = {
 		{'ForceSerial', typ.bool },
 		{'BuyingStore', typ.bool },
 		{'Delay', typ.int },
+		{'DisableOptions', typ.bool },
+		{'DropAnnounce', typ.bool },
 		{'KeepAfterUse', typ.bool },
 		{	'override', typ.int },
 		{	'nodrop', typ.bool },

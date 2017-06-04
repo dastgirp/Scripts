@@ -9,7 +9,6 @@ typ = {
 	string = 5,	-- String
 	group = 6,	-- LibConfig Group
 	script = 7,	-- Script Format
-	group_int = 8, -- Group and Integer
 }
 
 -- ItemDB
@@ -34,16 +33,16 @@ item_tbl = {
 		{'Gender', typ.int },
 		{'Loc', typ.int },
 		{'WeaponLv', typ.int },
-		{'EquipLv', typ.group_int },
+		{'EquipLv', typ.group },
 		{'Refine', typ.bool },
+		{'DisableOptions', typ.bool },
 		{'View', typ.int },
 		{'BindOnEquip', typ.bool },
 		{'ForceSerial', typ.bool },
 		{'BuyingStore', typ.bool },
 		{'Delay', typ.int },
-		{'DisableOptions', typ.bool },
-		{'DropAnnounce', typ.bool },
 		{'KeepAfterUse', typ.bool },
+		{'DropAnnounce', typ.bool },
 		{	'override', typ.int },
 		{	'nodrop', typ.bool },
 		{	'notrade', typ.bool },

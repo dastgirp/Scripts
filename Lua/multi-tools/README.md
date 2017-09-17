@@ -21,4 +21,13 @@ Format:<br/>
 	Default: #ID,#AegisName,#Name,#Type,#Buy,#Sell,#Weight,#Atk:#Matk,#Def,#Range,#Slots,#Job,#Upper,#Gender,#Loc,#wLV,#eLV,#Refine,#View,{ #Script },{ #OnEquipScript },{ #OnUnequipScript }<br/>
 	Additional Parameter: #eqmax,#eqmin (maximum and minimum equip level) <br/>
 <br/>
+<br/>
+Using MergeIDNum:<br/>
+<br/>
+Merges idnum Tables into itemInfo.lua:<br/>
+1) Make New Input Folders<br/>
+2) Copy These Files into that Input Folder: idnum2itemdisplaynametable.txt, idnum2itemdesctable.txt, idnum2itemresnametable.txt, num2itemdesctable.txt, num2itemdisplaynametable.txt, num2itemresnametable.txt<br/>
+3) Optional Files: costume.txt, itemslotcounttable.txt, accname.lub, accessoryid.lub<br/>
+4) Run "mergeidnum.bat" and enter the details<br/>
+<br/>
 Credits: Dastgir<br/>

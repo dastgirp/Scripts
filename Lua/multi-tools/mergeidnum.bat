@@ -2,5 +2,6 @@
 :Start
 set /p inputfolder=Enter Input Folder: 
 set /p itemInfo=Enter Output FileName(itemInfo.lub): 
-lua53.exe multi-tools.lub mergeidnum "%inputfolder%" "%itemInfo%"
+set /p itemDb=Enter item_db.conf Name(item_db.conf/null): 
+lua53.exe multi-tools.lub mergeidnum "%inputfolder%" "%itemInfo%" "%itemDb%"
 pause

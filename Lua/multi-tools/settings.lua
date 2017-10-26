@@ -1,6 +1,46 @@
 -- Comments are Auto Parsed
 
+-- Settings
+
+settings = {
+	-- Converts Display Name '_' (Underscore) to ' ' (Space)
+	convert_display_tag = true
+}
+
+
+-- Tables Configuration
+
 -- Constants
+--[[
+DataTypes:
+	Integer(1):
+		Can read Real Integer values.
+		e.g.: 1, 2, 3
+	Boolean(2):
+		Can read boolean values
+		e.g.: True, False
+	Hex(3):
+		Can Read hexadecimal values.
+		e.g.: 0xABC, 0x1BF
+	Value(4):
+		String Group, Reads the Value from item_tbl.value_s
+	String(5):
+		String Literal
+	Group(6):
+		Parses LibConfig Group
+		e.g:
+		a: {
+			b: true
+		}
+	Script(7):
+		Parses Script Tag <" ">
+	Constant(8):
+		Parses Constants
+		(Constants are read from item_tbl['constants'][field_name])
+	Constant Mask(9):
+		Same as Constant(8), but it can contain multiple values.
+		bit values.
+--]]
 typ = {
 	int           = 1,	-- Integer
 	bool          = 2,	-- Boolean
@@ -17,7 +57,6 @@ typ = {
 item_tbl = {
 	item_tbl_name = "item_db",	-- See at start of item_db, the initial line determine's this.
 	-- ItemDB Fields
-	-- Todo: Constants
 	fields = {	--Names are Formats too
 		{'Id',                 typ.int },
 		{'AegisName',          typ.string },

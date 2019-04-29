@@ -47,7 +47,7 @@ typ = {
 	hex           = 3,	-- Hex 
 	value         = 4,	-- Assign Value from value_s table
 	string        = 5,	-- String
-	group         = 6,	-- LibConfig Group
+	group         = 6,	-- LibConfig Group (Array)
 	script        = 7,	-- Script Format
 	constant      = 8,	-- Constants
 	constant_mask = 9,	-- Constant Mask
@@ -86,6 +86,8 @@ item_tbl = {
 		{'Delay',              typ.int },
 		{'KeepAfterUse',       typ.bool },
 		{'DropAnnounce',       typ.bool },
+		{'ShowDropEffect',     typ.bool },
+		{'DropEffectMode',     typ.int },
 		{	'override',        typ.int },
 		{	'nodrop',          typ.bool },
 		{	'notrade',         typ.bool },
@@ -99,7 +101,7 @@ item_tbl = {
 		{	'sitting',         typ.bool },
 		{'Stack',              typ.group },
 		{'Sprite',             typ.int },
-		{'ViewSprite',         typ.int },
+		{'ViewSprite',         typ.int }, -- Alternative to View
 	},
 
 	constants = {

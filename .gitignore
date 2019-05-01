@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+
+# Exclude python multiTools
+!/python/multiTools/*.so
+!/python/multiTools/*/*.so

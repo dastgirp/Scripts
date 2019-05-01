@@ -1,1 +1,2 @@
 lua SeperateItemInfo.lua
+pause
